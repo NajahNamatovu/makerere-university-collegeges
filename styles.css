@@ -1,0 +1,53 @@
+/* Styling for the map and popup */
+/* Styling for the map container, popup, and page layout */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size:xx-large;
+}
+
+/* Center the heading and logo */
+.center-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    max-width: 100px;
+    margin-bottom: 5px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Styling for the map and popup */
+#map {
+    width: 90%;               /* Make the map a bit smaller than full width to center it */
+    height: 80vh;             /* Set height as needed */
+    margin: 0 auto;           /* Center the map horizontally */
+    padding: 15px;            /* Adds padding inside the frame */
+    border: 2px solid #333;   /* Adds a solid border to frame the map */
+    border-radius: 8px;       /* Rounded corners for the frame */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adds shadow for a raised effect */
+    background-color: #f9f9f9; /* Light background color behind the map */
+}
+
+.ol-popup {
+    background-color: white;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+    position: absolute;
+    bottom: 10px;
+    left: -50px;
+    min-width: 120px;
+}
+.center-content h1 {
+    margin: 0;
+    font-size: 36px; /* Adjust this value to your preferred font size */
+    font-weight: bold; /* Optional: Makes the text bold */
+}
+

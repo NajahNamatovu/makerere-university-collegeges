@@ -1,0 +1,14 @@
+
+/* Ensure full height of the viewport */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+}
+
